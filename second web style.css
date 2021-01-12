@@ -1,0 +1,475 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.nav1 {
+    width: 100px;
+    height: 100%;
+    background-color: #1d2531;
+    overflow: hidden;
+    position: fixed;
+    box-sizing: border-box;
+}
+.nav1-button img {
+    display: block;
+    width: 60px; 
+    height: 60px;
+    margin: 20px auto;
+}
+.nav1-icon {
+    height: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+.nav1-icon img {
+    margin: 0 8px;
+}
+.nav1 img, .nav2 img {
+    cursor: pointer;
+}
+.nav1 img:hover, .nav2 img:hover  {
+    opacity: 0.7;
+}
+.nav1 img:active, .nav2 img:active {
+    opacity: 1.2;
+}
+
+
+.nav2 {
+    width: 250px;
+    height: 100%;
+    background-color: #222c3c;
+    padding: 30px;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+    position: fixed;
+    left: 100px;
+    box-sizing: border-box;
+}
+.nav2 span:hover {
+    color: #1991eb;
+    cursor: pointer;
+}
+
+.menue1, .menue2, .menue3 {
+    list-style: none;
+    color: #b7c0cd;
+    font-size: 14px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+}
+.menue1 li, .menue3 li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title span {
+    font-size: 12px;
+    color: #5b6779;
+}
+.nav2 button {
+    width: 32px;
+    height: 24px;
+    background-color: #1991eb;
+    border-radius: 50px;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1;
+}
+.nav2 button:hover{
+    background-color: #00aeff;
+    cursor: pointer;
+    font-weight: 600;
+}
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #2a3547;
+    margin-top: 20px;
+}
+.menue2 li {
+    display: flex;
+    align-items: center;
+}
+.menue2, .menue3 {
+    margin-top: 20px;
+}
+.menue2 .title {
+    justify-content: space-between;
+}
+.menue2 .icon {
+    margin-right: 10px;
+}
+.nav2 .button_issue {
+    width: 24px;
+    height: 24px;
+    background: linear-gradient(to bottom, #f45438 , #cb270a);
+}
+.nav2part2 {
+    color: #ffffff;
+    font-size: 14px;
+    height: 50px;
+}
+.monthly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.progress {
+    height: 6px;
+    width: 100%;
+    border-radius: 6px;
+    background: #475364;
+    margin-top: 15px;
+}
+.progress-bar-10 {
+    height: 6px;
+    width: 20%;
+    border-radius: 6px;
+    background: linear-gradient(to right, #7f5be6, #9d8fe3);
+    margin-top: 15px;
+}
+
+
+
+.Total-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e2e2e2;
+}
+header .messages {
+    font-size: 24px;
+    color: #354052;
+    margin-left: 30px;
+}
+header .account {
+    display: flex;
+    align-items: center;
+}
+header .account .photo {
+    margin-right: 10px;
+}
+header .account .nameall {
+    height: 40px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .account .name {
+    font-size: 16px;
+    color: #2399f1;
+    font-weight: 500;
+}
+header .account .role {
+    font-size: 14px;
+    color: #b5b5b5;
+    font-weight: 500;
+}
+header .account .dropdown {
+    margin: 0 30px;
+}
+.filter {
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #e6e9ec;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.search {
+    width: 400px;
+    height: 100%;
+    border-right: 1px solid #e6e9ec;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+::placeholder {
+    color: #9fa9ba;
+    font-size: 14px;
+}
+.searchbox {
+    background-color: #ffffff;
+    height: 36px;
+    width: 100%;
+    margin: 17px 30px;
+    border: 1px solid #e6e9ec;
+    border-radius: 4px;
+    padding-left: 14px;
+    background: url(./icon_search.png) no-repeat;
+    background-position: right 14px center;
+}
+.oper {
+    padding: 0 0 0 30px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex: 1;
+}
+.left, .right {
+    display: flex;
+    align-items: center;
+}
+.bessie {
+    font-size: 18px;
+    color: #585d68;
+}
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #1bb934;
+    margin-left: 20px;
+}
+.buttongroup1 {
+    width: 109px;
+    height: 32px;
+    border: 1px solid #ced0da;
+    border-radius: 4px;
+    background: linear-gradient(to top, #f1f3f7, #fff);
+    display: flex;
+    justify-content: space-around;
+}
+.vertical-line {
+    height: 100%;
+    width: 1px;
+    background-color: #ced0da;
+}
+.y-line {
+    height: 24px;
+    width: 1px;
+    background-color: #ced0da;
+    margin-left: 22px;
+    margin-right: 20px;
+}
+.itemspage {
+    font-size: 14px;
+    color: #56688a;
+    margin-right: 20px;
+}
+.buttongroup2 {
+    width: 73px;
+    height: 32px;
+    border: 1px solid #ced0da;
+    border-radius: 4px;
+    background: linear-gradient(to top, #f1f3f7, #fff);
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+
+
+.message {
+    display: flex;
+    
+}
+.Total-content .leftlist {
+    width: 400px; 
+    border-right: 1px solid #e6e9ec;
+    min-height: calc(100vh - 152px);  
+    box-sizing: border-box;
+}
+.content .rightdetail {
+    width: 100%;
+    flex: 1;
+}
+.message ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.message .message1 {
+    padding: 15px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e6e9ec;
+    cursor: pointer;
+}
+.message .message1:hover {
+    border-left: 3px solid #2399f1;
+}
+.message1 .personalinfo {
+    display: flex;
+    justify-content: space-between;
+}
+.personalinfo .avatarinfo {
+    display: flex;
+}
+.message1 .avatar {
+    margin-right: 20px;
+}
+.message1 .namearea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.personalinfo .name {
+    font-size: 16px;
+    color: #585d68;
+    font-weight: 500;
+}
+.message1:hover .name {
+    font-size: 16px;
+    color: #2399f1;
+    font-weight: 600;
+}
+.message1 .dot {
+    width: 8px;
+    height: 8px;
+    background-color: #00aaff;
+    display: none;
+}
+.message1:hover .dot {
+    display: block;
+    margin: 0 10px 0 0;
+}
+.message1:hover .namecom {
+    display: flex;
+    align-items: center;
+}
+.personalinfo .platform {
+    font-size: 14px;
+    color: #b5b5b5;
+    font-weight: 500;
+}
+.personalinfo .time {
+    font-size: 14px;
+    color: #7f8fa4;
+}
+.message1 .contentarea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.message1 .content {
+    font-size: 14px;
+    color: #585d68;
+    width: 320px;
+    line-height: 18px;
+    padding-top: 10px;
+}
+.message1 .number {
+    background-color: #1991eb;
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+}
+.message .rightdetail {
+    min-height: cacl(100vh - 152px);
+    display: flex;
+    flex-direction: column;
+}
+.rightdetail {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #e6e9ec;
+    flex: 1;
+}
+.message .rightdetail .user1 {
+    display: flex;
+    margin-bottom: 20px;
+}
+.rightdetail .user1 .avatar {
+    margin-right: 20px;
+}
+.rightdetail .user1 .mess-content {
+    flex: 1;
+}
+.rightdetail .name {
+    font-size: 16px;
+    color: #585d68;
+    font-weight: 500;
+}
+.rightdetail .name span {
+    font-size: 14px;
+    color: #7f8fa4;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.rightdetail .text {
+    font-size: 14px;
+    color: #585d68;
+    margin-top: 6px;
+}
+.now, .lastday, .new{
+    border-bottom: 1px solid #e6e9ec;
+    padding: 25px 30px 25px 30px;
+}
+.rightdetail .photo {
+    display: flex;
+}
+.rightdetail .photo1 {
+    margin: 16px 10px 0 0;
+}
+.rightdetail .photo1:hover .mask{
+    opacity: 1;
+    cursor: pointer;
+}
+.rightdetail .mask {
+    position: absolute;
+    width: 156px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 4px;
+    background-color: rgb(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.rightdetail .mask .circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 255, 255, 0.3);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightdetail .addmessage {
+    display: flex;
+    position: sticky;
+    bottom: 20px;
+    margin: 30px 30px 20px 30px;
+}
+.rightdetail .addmessage button {
+    width: 54px;
+    height: 54px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ced0da;
+    background-image: linear-gradient(to top, #f1f3f7, #fff);
+    margin: 0;
+    padding: 0;
+}
+.rightdetail .addmessage input {
+    height: 54px;
+    border: 1px solid #ced0da;
+    margin: 0;
+    border-left: 0;
+    flex: 1;
+    padding: 0 14px;
+    border-radius: 0 4px 4px 0;
+}
