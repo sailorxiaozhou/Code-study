@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+.one {
+    background-image: url(./backimage1.jpg);
+    display: flex;
+    width: 1600px;
+    height: 1000px;
+    flex-flow: column;
+    margin: 0 auto;
+}
+.two, .four, .five, .six, .seven {
+    display: flex;
+    width: 1600px;
+    height: 710px;
+    margin: 0 auto;
+    flex-flow: column;
+}
+.section1, .description {
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+.section1 {
+    font-size: 60px;
+    margin-top: 200px;
+}
+.description {
+    font-size: 20px;
+    width: 760px;
+    margin: 0 auto;
+    font-weight: 100;
+    line-height: 1.5;
+    opacity: 0.5;
+}
+.account {
+    display: flex;
+    flex-flow: column;
+    width: 970px;
+    height: 250px;
+    border: 1px solid;
+    border-color: rgb(255, 255, 255, 0.2);
+    margin: 0 auto;
+    margin-top: 150px;
+    
+}
+.sec-title1 {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    opacity: 0.8;
+    display: block;
+}
+.sec-title2 {
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.3;
+}
+.ac-input {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.ac-name, .ac-password {
+    width: 290px;
+    height: 50px;
+    BACKGROUND-COLOR: transparent;
+    border-width: 0px;
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    border-radius: 2px;
+    margin: 10px 10px 0px 20px;    
+    color: white;
+    padding-left: 20px;
+    opacity: 0.8;
+}
+.ac-input button {
+    width: 125px;
+    height: 50px;
+    margin: 10px 10px 0px 20px; 
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(000, 000, 000, 0.8);
+}
+.sec2-title1, .sec2-title2 {
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.8;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 70px;
+}
+.sec2-title2 {
+    font-size: 40px;
+    text-transform: none;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    width: 700px;
+    
+}
+.part {
+    display: flex;
+    width: 450px;
+    margin: 90px 80px 0px 80px;
+}
+.icon_mobile, .icon_accessibility, .icon_fluid, .icon_custom {
+    width: 80px;
+    height: 50px;
+    background-image: url(./icon_mobile.png);
+    background-repeat: no-repeat;
+}
+.icon_accessibility {
+    background-image: url(icon_accessibility.png);
+}
+.icon_fluid {
+    background-image: url(icon_fluid.png);
+}
+.icon_custom {
+    background-image: url(./icon_custom.png);
+    width: 150px;
+    height: 100px;
+}
+.part2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    margin: 0px;
+}
+.icon-title {
+    font-size: 20px;
+    opacity: 0.8;
+    font-family: Montserrat-Light;
+    margin: 0px 0px 20px 10px;
+}
+.icon-content {
+    font-size: 16px;
+    font-family: Montserrat-ExtraLight;
+    margin: 0px 0px 0px 10px;
+    color: #838383;
+}
+.three {
+    background-image: url(backimage2.jpg);
+    width: 1600px;
+    height: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+.supp {
+    color: white;
+    font-weight: 100;
+    font-size: 40px; 
+    display: block;
+    width: 370px;
+    height: 160px;
+    margin: 180px 0px 0px 315px;
+}
+.three > article > .description {
+    text-align: start;
+    margin: 20px 0px 0px 315px;
+    width: 370px;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+button {
+    width: 240px;
+    height: 60px;
+    margin: 50px 0px 0px 315px; 
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(000, 000, 000, 0.8);
+}
+.button2 {
+    border: 1px solid rgb(255, 255, 255, 0.2);
+    BACKGROUND-COLOR: transparent;
+    color: white;
+    margin-left: 30px;
+}
+.four > .supp {
+    text-align: center;
+    color: #000;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.four article {
+    display: flex;
+    padding: 0px 320px;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.four > article > div {
+    width: 268px;
+}
+.four > article > div > .description {
+    color: rgb(000, 000, 000, 0.6) ;
+    width: 268px;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.four > article > div > img {
+    margin-left: 80px;
+}
+.divider {
+    line-height: 1px;
+    border-top: 1px solid rgb(000, 000, 000, 0.2);
+    margin-top: 70px;
+}
+.five {
+    height: 1000px;
+}
+.five-a, .five-b {
+    display: flex;
+    width: 970px;
+}
+.five > .five-a > img {
+    margin: 114px 0px 0px 315px;
+}
+.title-learn, .title-choose {
+    font-size: 22px;
+    margin: 170px 0px 0px 100px;
+    display: block;
+    width: 300px;
+    font-weight: 400;
+    color: rgb(000, 000, 000, 0.8);
+}
+.five > .five-a > div > .description, .five > .five-b > div > .description {
+    color: rgb(000, 000, 000, 0.8);
+    margin: 30px 0px 0px 100px;
+    display: block;
+    width: 300px;
+    font-size: 16px;
+    text-align: start;
+}
+.five > .five-b > img {
+    flex-direction: row-reverse;
+    margin: 80px 0px 0px 100px;
+}
+.title-choose {
+    margin-left: 315px;
+    margin-top: 140px;
+}
+.five > .five-b > div > .description {
+    margin-left: 315px;
+}
+.six {
+    height: 1084px;
+}
+.six_title {
+    color:rgb(000, 000, 000, 0.8);
+    font-weight: 100;
+    font-size: 40px; 
+    text-align: center;
+}
+.six > .description {
+    color: rgb(000, 000, 000, 0.8);
+}
+.per_all {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.per1 {
+    margin: 10px;
+    width: 470px;
+    height: 340px;
+    position: relative;
+}
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 470px;
+    height: 340px;
+    background: rgb(000, 000, 000, 0.6);
+    opacity: 0;
+}
+.per_title {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    margin-top: 110px;
+}
+.per_des {
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+    opacity: 0.4;
+}
+.social_app {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 36px;
+    padding: 0px 100px;
+}
+.mask:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+.seven {
+    display: flex;
+    width: 972px;
+    margin: 0 auto;
+    flex-flow: wrap;
+}
+.seven_article1 {
+    border: 1px solid rgb(000, 000, 000, 0.2);
+    border-radius: 8px;
+    display: flex;
+    flex-flow: column ;
+    width: 470px;
+    height: 560px;
+    align-items: center;
+}
+.seven > .seven_article1 > p {
+    font-size: 16px;
+    font-family: Montserrat-Light;
+    color: rgb(20, 20, 20);
+    margin-top: 50px;
+}
+.seven > article > input, .seven > article > textarea {
+    width: 370px;
+    height: 50px;
+    border: 1px solid rgb(000, 000, 000, 0.2); 
+    border-radius: 2px;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-family: Montserrat-Light;
+}
+.seven > article > textarea {
+    width: 370px;
+    height: 144px;
+    padding-top: 12px;
+}
+.seven > article > button {
+    background-color: rgb(20, 20, 20);
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 66px;
+    width: 370px;
+    height: 50px;
+}
+.seven_article2 {
+    width: 370px;
+    margin-left: 132px;    
+}
+
+.seven_title1 {
+    font-size: 42px;
+    font-family: Montserrat-ExtraLight;
+    color: rgb(20, 20, 20);
+    margin-top: 60px;
+}
+.seven_title2 {
+    font-size: 16px;
+    font-family: Montserrat-ExtraLight;
+    color: rgb(20, 20, 20, 0.6);
+    margin-top: 30px;
+}
+.seven > article > div {
+    display: flex;
+    margin-top: 40px;
+}
+.seven > article > div > p {
+    font-size: 16px;
+    font-family: Montserrat-Light;
+    color: rgb(20, 20, 20);
+    margin: 0 0 0 20px;  
+}
+.eight {
+    background-color: rgb(20, 20, 20);
+    color: #ffffff;
+    height: 420px;
+    display: flex;
+
+}
+.eight > article {
+    flex: 1 270px;
+    margin-right: 30px;
+    margin-top: 90px;
+    font-family: Montserrat;
+}
+.eight > article:nth-child(1) {
+    margin-left: 215px;
+}
+.eight > article > span {
+    font-size: 14px;
+    font-family: Montserrat-Light;
+}
+.eight > article > p {
+    font-size: 14px;
+    font-family: Montserrat-ExtraLight;
+    opacity: 0.3;
+    line-height: 46px;
+}
+.eight > article:nth-child(4) > p {
+    line-height: 20px;
+}
+.eight > article:nth-child(4) {
+    margin-right: 215px;
+}
