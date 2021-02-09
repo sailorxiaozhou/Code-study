@@ -1,13 +1,13 @@
 
     document.getElementById("add-btn").onclick = function () {
-        document.getElementById("result").innerHTML =
+        document.getElementById("result").innerHTML = "运算结果:" + <br></br>
         +document.getElementById("first-number").value + 
         +document.getElementById("second-number").value;  
     }
     document.getElementById("minus-btn").onclick = function () {
         document.getElementById("result").innerHTML = 
-        document.getElementById("first-number").value - 
-        document.getElementById("second-number").value;  
+        +document.getElementById("first-number").value - 
+        +document.getElementById("second-number").value;  
     }
     document.getElementById("times-btn").onclick = function () {
         document.getElementById("result").innerHTML = 
